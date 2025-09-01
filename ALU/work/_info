@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read
+vALU
+Z0 !s110 1740407823
+!i10b 1
+!s100 ;R8AB@7o53<HlnRViQ=XO2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWX]fRm[4P3RIFJa5`Zn^`2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Alex/Desktop/CompArch_/ALU
+w1740407791
+8C:/Users/Alex/Desktop/CompArch_/ALU/ALU.v
+FC:/Users/Alex/Desktop/CompArch_/ALU/ALU.v
+!i122 108
+L0 1 79
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1740407823.000000
+!s107 C:/Users/Alex/Desktop/CompArch_/ALU/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/ALU/ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u
+vmux2
+R0
+!i10b 1
+!s100 V?ZO^g8mEE=>@eSbiVoIf0
+R1
+I^lBcSnBOAaE@T63>UkAmA0
+R2
+R3
+w1740367017
+8C:/Users/Alex/Desktop/CompArch_/ALU/mux2.v
+FC:/Users/Alex/Desktop/CompArch_/ALU/mux2.v
+!i122 110
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/ALU/mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/ALU/mux2.v|
+!i113 1
+R6
+R7
+vmux3
+R0
+!i10b 1
+!s100 fGOm3K8IVn8NNBY7dWNlE2
+R1
+IIa`=YhmeeEGYM`Cf:QmAO2
+R2
+R3
+w1740367010
+8C:/Users/Alex/Desktop/CompArch_/ALU/mux3.v
+FC:/Users/Alex/Desktop/CompArch_/ALU/mux3.v
+!i122 111
+L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/ALU/mux3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/ALU/mux3.v|
+!i113 1
+R6
+R7
+vmux4
+R0
+!i10b 1
+!s100 Mi;igW0J7LXW7cc:2Xj7?3
+R1
+I68hQM^e=Mhd[i6=m8T5<Y3
+R2
+R3
+w1740367003
+8C:/Users/Alex/Desktop/CompArch_/ALU/mux4.v
+FC:/Users/Alex/Desktop/CompArch_/ALU/mux4.v
+!i122 112
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/ALU/mux4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/ALU/mux4.v|
+!i113 1
+R6
+R7
+vtestbench
+R0
+!i10b 1
+!s100 W3We@RYk4EfWEfK<bdDNL1
+R1
+I590H?bP>]f`DXd[lg`DO83
+R2
+R3
+w1740407819
+8C:/Users/Alex/Desktop/CompArch_/ALU/ALU_testbench.v
+FC:/Users/Alex/Desktop/CompArch_/ALU/ALU_testbench.v
+!i122 109
+L0 26 124
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/ALU/ALU_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/ALU/ALU_testbench.v|
+!i113 1
+R6
+R7

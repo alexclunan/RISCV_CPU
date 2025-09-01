@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alex/Desktop/CompArch_/MUX
+vmux2
+Z0 !s110 1739199874
+!i10b 1
+!s100 7F[af5VjR=z6:iT4<==Nm1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJXEW4@G><gU_^MX1PD3<32
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read
+w1738451854
+8C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux2.v
+FC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux2.v
+!i122 7
+Z4 L0 1 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1739199874.000000
+!s107 C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux2.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vmux3
+R0
+!i10b 1
+!s100 <BQeHVhT[cS0]W0:1QD9_0
+R1
+IE6F1gnLg7VB?2YMCjP5852
+R2
+R3
+w1738452258
+8C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux3.v
+FC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux3.v
+!i122 8
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux3.v|
+!i113 1
+R7
+R8
+vmux4
+R0
+!i10b 1
+!s100 b:3la?UlOLaKMTPFDm6]i3
+R1
+I=3FkFB46?OZSXDQX_:S8f1
+R2
+R3
+w1738737784
+8C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux4.v
+FC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux4.v
+!i122 9
+L0 1 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/mux4.v|
+!i113 1
+R7
+R8
+vread_data
+R0
+!i10b 1
+!s100 E`]BC];@4_eW<2RFj:emn1
+R1
+INA5zGQ1zcSEQajSL1[n:j0
+R2
+R3
+w1738737846
+8C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/read_data.v
+FC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/read_data.v
+!i122 10
+L0 1 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/read_data.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/read_data.v|
+!i113 1
+R7
+R8
+vsign_extend
+R0
+!i10b 1
+!s100 gJlz_8^e[LQmm_M9aLfFK2
+R1
+IXEkYkzGAH]aU0<C6`SdAo3
+R2
+R3
+w1739162169
+8C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/sign_extend.v
+FC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/sign_extend.v
+!i122 11
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/sign_extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/sign_extend.v|
+!i113 1
+R7
+R8
+vtestbench
+R0
+!i10b 1
+!s100 S[_]2OCA;fN78l9nFRz;J3
+R1
+IgbWN1R4=A?Y@XC59E1Y6H0
+R2
+R3
+w1738728368
+8C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/testbench_read.v
+FC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/testbench_read.v
+!i122 12
+L0 25 102
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/testbench_read.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/testbench_read.v|
+!i113 1
+R7
+R8
+vzero_extend
+R0
+!i10b 1
+!s100 IaULX:czM5Le^_gEibPF50
+R1
+IV@[m;HQ:9[V9kNYdV`9=N0
+R2
+R3
+w1739196271
+8C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/zero_extend.v
+FC:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/zero_extend.v
+!i122 13
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/zero_extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/Loading and Storing Data/Read/zero_extend.v|
+!i113 1
+R7
+R8

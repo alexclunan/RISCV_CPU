@@ -1,0 +1,177 @@
+{C:/Users/Alex/Desktop/CompArch_/Computer System/ALU_decoder.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/ALU_decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_decoder
+
+Top level modules:
+	ALU_decoder
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/sign_extend.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/sign_extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/testbench.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/RAM_memory.v} {2 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/RAM_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM_memory
+** Warning: C:/Users/Alex/Desktop/CompArch_/Computer System/RAM_memory.v(32): (vlog-2256) Event expressions should result in a singular type.
+
+Top level modules:
+	RAM_memory
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/cpu.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/cpu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/extend.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/register_n.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/register_n.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_n
+
+Top level modules:
+	register_n
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/load_store_unit.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/load_store_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module load_store_unit
+
+Top level modules:
+	load_store_unit
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/mux2.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/mux2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/controller.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/read_data.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/read_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module read_data
+
+Top level modules:
+	read_data
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/branch_unit.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/branch_unit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module branch_unit
+
+Top level modules:
+	branch_unit
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/constant_32bit.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/constant_32bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module constant_32bit
+
+Top level modules:
+	constant_32bit
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/mux3.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/mux3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/reset_clock.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/reset_clock.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reset_clock
+
+Top level modules:
+	reset_clock
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/mux4.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/mux4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/zero_extend.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/zero_extend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zero_extend
+
+Top level modules:
+	zero_extend
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/datapath.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/imm_src_decoder.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/imm_src_decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module imm_src_decoder
+
+Top level modules:
+	imm_src_decoder
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/ALU.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/main_fsm.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/main_fsm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module main_fsm
+
+Top level modules:
+	main_fsm
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/address_decoder.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/address_decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module address_decoder
+
+Top level modules:
+	address_decoder
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/write_data.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/write_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module write_data
+
+Top level modules:
+	write_data
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/register_file.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/register_file.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} {C:/Users/Alex/Desktop/CompArch_/Computer System/ROM_memory.v} {1 {vlog -work work -stats=none {C:/Users/Alex/Desktop/CompArch_/Computer System/ROM_memory.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROM_memory
+
+Top level modules:
+	ROM_memory
+
+} {} {}}

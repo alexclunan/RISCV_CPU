@@ -1,0 +1,36 @@
+C:/Users/Alex/Desktop/CompArch_/ALU/mux3.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/ALU/mux3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/ALU/ALU_testbench.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/ALU/ALU_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/ALU/mux4.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/ALU/mux4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4
+
+Top level modules:
+	mux4
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/ALU/ALU.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/ALU/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/ALU/mux2.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/ALU/mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}}

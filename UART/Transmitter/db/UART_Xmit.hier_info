@@ -1,0 +1,186 @@
+|UART_Xmit
+Reset => Reset.IN1
+Clock => Clock.IN3
+WR => WR.IN2
+Din[0] => Din[0].IN1
+Din[1] => Din[1].IN1
+Din[2] => Din[2].IN1
+Din[3] => Din[3].IN1
+Din[4] => Din[4].IN1
+Din[5] => Din[5].IN1
+Din[6] => Din[6].IN1
+Din[7] => Din[7].IN1
+Din[8] => Din[8].IN1
+Din[9] => Din[9].IN1
+Din[10] => Din[10].IN1
+Din[11] => Din[11].IN1
+Din[12] => Din[12].IN1
+Din[13] => Din[13].IN1
+Din[14] => Din[14].IN1
+Din[15] => Din[15].IN1
+Din[16] => Din[16].IN1
+Din[17] => Din[17].IN1
+Din[18] => Din[18].IN1
+Din[19] => Din[19].IN1
+Din[20] => Din[20].IN1
+Din[21] => Din[21].IN1
+Din[22] => Din[22].IN1
+Din[23] => Din[23].IN1
+Din[24] => Din[24].IN1
+Din[25] => Din[25].IN1
+Din[26] => Din[26].IN1
+Din[27] => Din[27].IN1
+Din[28] => Din[28].IN1
+Din[29] => Din[29].IN1
+Din[30] => Din[30].IN1
+Din[31] => Din[31].IN1
+TxRDY << Xmit_Controller:b2v_XmitController.TxRDY
+TxD << Xmit_mux3:b2v_TxD_MUX.y
+
+
+|UART_Xmit|Xmit_ParityGenerator:b2v_ParityGenerator
+Reset => Parity~reg0.ACLR
+Clock => Parity~reg0.CLK
+Din => Parity.IN1
+Enable => Parity~reg0.ENA
+Parity <= Parity~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UART_Xmit|Xmit_ShiftRegister:b2v_ShiftRegister
+Load => register.OUTPUTSELECT
+Load => register.OUTPUTSELECT
+Load => register.OUTPUTSELECT
+Load => register.OUTPUTSELECT
+Load => register.OUTPUTSELECT
+Load => register.OUTPUTSELECT
+Load => register.OUTPUTSELECT
+Load => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Shift => register.OUTPUTSELECT
+Clock => register[0].CLK
+Clock => register[1].CLK
+Clock => register[2].CLK
+Clock => register[3].CLK
+Clock => register[4].CLK
+Clock => register[5].CLK
+Clock => register[6].CLK
+Clock => register[7].CLK
+Din[0] => register.DATAB
+Din[1] => register.DATAB
+Din[2] => register.DATAB
+Din[3] => register.DATAB
+Din[4] => register.DATAB
+Din[5] => register.DATAB
+Din[6] => register.DATAB
+Din[7] => register.DATAB
+SerOut <= register[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UART_Xmit|Xmit_mux3:b2v_TxD_MUX
+d0 => d0.IN1
+d1 => d1.IN1
+d2 => d2.IN1
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
+y <= mux3:mux3_0.y
+
+
+|UART_Xmit|Xmit_mux3:b2v_TxD_MUX|mux3:mux3_0
+d0[0] => d0[0].IN1
+d1[0] => d1[0].IN1
+d2[0] => d2[0].IN1
+sel[0] => sel[0].IN1
+sel[1] => sel[1].IN1
+y[0] <= mux2:mux2_1.y
+
+
+|UART_Xmit|Xmit_mux3:b2v_TxD_MUX|mux3:mux3_0|mux2:mux2_0
+d0[0] => y.DATAA
+d1[0] => y.DATAB
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UART_Xmit|Xmit_mux3:b2v_TxD_MUX|mux3:mux3_0|mux2:mux2_1
+d0[0] => y.DATAA
+d1[0] => y.DATAB
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UART_Xmit|Xmit_BufferRegister:b2v_XmitBuffer
+Clock => Dout[0]~reg0.CLK
+Clock => Dout[1]~reg0.CLK
+Clock => Dout[2]~reg0.CLK
+Clock => Dout[3]~reg0.CLK
+Clock => Dout[4]~reg0.CLK
+Clock => Dout[5]~reg0.CLK
+Clock => Dout[6]~reg0.CLK
+Clock => Dout[7]~reg0.CLK
+Din[0] => Dout[0]~reg0.DATAIN
+Din[1] => Dout[1]~reg0.DATAIN
+Din[2] => Dout[2]~reg0.DATAIN
+Din[3] => Dout[3]~reg0.DATAIN
+Din[4] => Dout[4]~reg0.DATAIN
+Din[5] => Dout[5]~reg0.DATAIN
+Din[6] => Dout[6]~reg0.DATAIN
+Din[7] => Dout[7]~reg0.DATAIN
+Din[8] => ~NO_FANOUT~
+Din[9] => ~NO_FANOUT~
+Din[10] => ~NO_FANOUT~
+Din[11] => ~NO_FANOUT~
+Din[12] => ~NO_FANOUT~
+Din[13] => ~NO_FANOUT~
+Din[14] => ~NO_FANOUT~
+Din[15] => ~NO_FANOUT~
+Din[16] => ~NO_FANOUT~
+Din[17] => ~NO_FANOUT~
+Din[18] => ~NO_FANOUT~
+Din[19] => ~NO_FANOUT~
+Din[20] => ~NO_FANOUT~
+Din[21] => ~NO_FANOUT~
+Din[22] => ~NO_FANOUT~
+Din[23] => ~NO_FANOUT~
+Din[24] => ~NO_FANOUT~
+Din[25] => ~NO_FANOUT~
+Din[26] => ~NO_FANOUT~
+Din[27] => ~NO_FANOUT~
+Din[28] => ~NO_FANOUT~
+Din[29] => ~NO_FANOUT~
+Din[30] => ~NO_FANOUT~
+Din[31] => ~NO_FANOUT~
+Dout[0] <= Dout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Dout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Dout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] <= Dout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] <= Dout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[6] <= Dout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Dout[7] <= Dout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UART_Xmit|Xmit_Controller:b2v_XmitController
+Reset => Count.OUTPUTSELECT
+Reset => Count.OUTPUTSELECT
+Reset => Count.OUTPUTSELECT
+Reset => TxRDY~reg0.PRESET
+Reset => TxRDY.IN0
+Clock => Count[0].CLK
+Clock => Count[1].CLK
+Clock => Count[2].CLK
+Clock => CurrentState~1.DATAIN
+WR => TxRDY.IN1
+Idle <= Idle.DB_MAX_OUTPUT_PORT_TYPE
+Start <= Start.DB_MAX_OUTPUT_PORT_TYPE
+Shift <= Shift.DB_MAX_OUTPUT_PORT_TYPE
+Parity <= Parity.DB_MAX_OUTPUT_PORT_TYPE
+Stop <= Stop.DB_MAX_OUTPUT_PORT_TYPE
+TxRDY <= TxRDY~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

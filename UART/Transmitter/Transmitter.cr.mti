@@ -1,0 +1,64 @@
+C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux2.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/testbench.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_BufferRegister.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_BufferRegister.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Xmit_BufferRegister
+
+Top level modules:
+	Xmit_BufferRegister
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ShiftRegister.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ShiftRegister.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Xmit_ShiftRegister
+
+Top level modules:
+	Xmit_ShiftRegister
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux3.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/UART_Xmit.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/UART_Xmit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART_Xmit
+
+Top level modules:
+	UART_Xmit
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ParityGenerator.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ParityGenerator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Xmit_ParityGenerator
+
+Top level modules:
+	Xmit_ParityGenerator
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_Controller.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_Controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Xmit_Controller
+
+Top level modules:
+	Xmit_Controller
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_mux3.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_mux3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Xmit_mux3
+
+Top level modules:
+	Xmit_mux3
+
+} {} {}}

@@ -1,0 +1,224 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alex/Desktop/CompArch_/Computer System
+vmux2
+Z0 !s110 1744256955
+!i10b 1
+!s100 7F[af5VjR=z6:iT4<==Nm1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2A5PV3=iERQ?M`R4_>C<T3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Alex/Desktop/CompArch_/UART/Transmitter
+w1738451854
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux2.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux2.v
+!i122 36
+Z4 L0 1 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1744256955.000000
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux2.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vmux3
+R0
+!i10b 1
+!s100 <BQeHVhT[cS0]W0:1QD9_0
+R1
+IN=<H??49igj2_dIBR:;b[1
+R2
+R3
+w1738452258
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux3.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux3.v
+!i122 37
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/mux3.v|
+!i113 1
+R7
+R8
+vtestbench
+R0
+!i10b 1
+!s100 P4dSEYBzNeaAgk=mB5Jhg2
+R1
+IC8:G3B`LA:d0bnI;[jE=43
+R2
+R3
+w1744207374
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/testbench.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/testbench.v
+!i122 38
+L0 3 71
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/testbench.v|
+!i113 1
+R7
+R8
+vUART_Xmit
+R0
+!i10b 1
+!s100 hNCXo5k?BaoXE3KQWROBD3
+R1
+IY12X_AH1c6[iP=Q>[]_?32
+R2
+R3
+w1744207350
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/UART_Xmit.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/UART_Xmit.v
+!i122 39
+L0 1 63
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/UART_Xmit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/UART_Xmit.v|
+!i113 1
+R7
+R8
+n@u@a@r@t_@xmit
+vXmit_BufferRegister
+R0
+!i10b 1
+!s100 C6gDZXLX1am[b^h^091@^2
+R1
+IP_ocI^@Wf6[YR8eE`i]GS0
+R2
+R3
+w1744207768
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_BufferRegister.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_BufferRegister.v
+!i122 40
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_BufferRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_BufferRegister.v|
+!i113 1
+R7
+R8
+n@xmit_@buffer@register
+vXmit_Controller
+R0
+!i10b 1
+!s100 `l9n6Xz]0<K746`XadeK00
+R1
+IV5J];abL^3JTM8^Tni`EZ1
+R2
+R3
+w1744256925
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_Controller.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_Controller.v
+!i122 41
+L0 1 122
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_Controller.v|
+!i113 1
+R7
+R8
+n@xmit_@controller
+vXmit_mux3
+R0
+!i10b 1
+!s100 ^Ml@KN^6NajiT^5JGG=bk3
+R1
+Ik?0CMo:6TCXo6F=4:b6JL1
+R2
+R3
+w1744215963
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_mux3.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_mux3.v
+!i122 42
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_mux3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_mux3.v|
+!i113 1
+R7
+R8
+n@xmit_mux3
+vXmit_ParityGenerator
+R0
+!i10b 1
+!s100 fPo7UZKa2hfzg[P_7hHKa0
+R1
+I:;A71GO:<4C<f2]4`_96A0
+R2
+R3
+w1744212134
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ParityGenerator.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ParityGenerator.v
+!i122 43
+L0 1 21
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ParityGenerator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ParityGenerator.v|
+!i113 1
+R7
+R8
+n@xmit_@parity@generator
+vXmit_ShiftRegister
+R0
+!i10b 1
+!s100 lAXY5R]<gV9O@k^oBFlFZ0
+R1
+Ij1DXBR5A2`NhJ98QSjgj?0
+R2
+R3
+w1744211671
+8C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ShiftRegister.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ShiftRegister.v
+!i122 44
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ShiftRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Transmitter/Xmit_ShiftRegister.v|
+!i113 1
+R7
+R8
+n@xmit_@shift@register

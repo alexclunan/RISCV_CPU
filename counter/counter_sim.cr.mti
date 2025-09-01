@@ -1,0 +1,18 @@
+C:/Users/Alex/Desktop/CompArch_/counter/counters.v {1 {vlog -work work C:/Users/Alex/Desktop/CompArch_/counter/counters.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 23:44:10 on Jan 26,2025
+vlog -reportprogress 300 -work work C:/Users/Alex/Desktop/CompArch_/counter/counters.v 
+-- Compiling module counters
+
+Top level modules:
+	counters
+End time: 23:44:10 on Jan 26,2025, Elapsed time: 0:00:00
+
+} {} {}} C:/Users/Alex/Desktop/CompArch_/counter/testbench.v {1 {vlog -work work -stats=none C:/Users/Alex/Desktop/CompArch_/counter/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

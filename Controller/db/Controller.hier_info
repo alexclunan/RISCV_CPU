@@ -1,0 +1,162 @@
+|controller
+reset => reset.IN1
+clock => clock.IN1
+op[0] => op[0].IN2
+op[1] => op[1].IN2
+op[2] => op[2].IN2
+op[3] => op[3].IN2
+op[4] => op[4].IN2
+op[5] => op[5].IN3
+op[6] => op[6].IN2
+funct3[0] => funct3[0].IN3
+funct3[1] => funct3[1].IN3
+funct3[2] => funct3[2].IN3
+funct7b5 => funct7b5.IN1
+Flags[0] => Flags[0].IN1
+Flags[1] => Flags[1].IN1
+Flags[2] => Flags[2].IN1
+Flags[3] => Flags[3].IN1
+ImmSrc[0] << imm_src_decoder:b2v_imm_src_decoder_0.ImmSrc
+ImmSrc[1] << imm_src_decoder:b2v_imm_src_decoder_0.ImmSrc
+ImmSrc[2] << imm_src_decoder:b2v_imm_src_decoder_0.ImmSrc
+ALUSrcA[0] << main_fsm:b2v_main_fsm_0.ALUSrcA
+ALUSrcA[1] << main_fsm:b2v_main_fsm_0.ALUSrcA
+ALUSrcB[0] << main_fsm:b2v_main_fsm_0.ALUSrcB
+ALUSrcB[1] << main_fsm:b2v_main_fsm_0.ALUSrcB
+ResultSrc[0] << main_fsm:b2v_main_fsm_0.ResultSrc
+ResultSrc[1] << main_fsm:b2v_main_fsm_0.ResultSrc
+AdrSrc << main_fsm:b2v_main_fsm_0.AdrSrc
+ALUControl[0] << ALU_decoder:b2v_ALU_decoder_0.ALUControl
+ALUControl[1] << ALU_decoder:b2v_ALU_decoder_0.ALUControl
+ALUControl[2] << ALU_decoder:b2v_ALU_decoder_0.ALUControl
+ALUControl[3] << ALU_decoder:b2v_ALU_decoder_0.ALUControl
+IRWrite << main_fsm:b2v_main_fsm_0.IRWrite
+PCWrite << PCWrite.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite << main_fsm:b2v_main_fsm_0.RegWrite
+MemWrite << main_fsm:b2v_main_fsm_0.MemWrite
+LoadType[0] << load_store_unit:b2v_load_store_unit_0.LoadType
+LoadType[1] << load_store_unit:b2v_load_store_unit_0.LoadType
+LoadType[2] << load_store_unit:b2v_load_store_unit_0.LoadType
+StoreType[0] << load_store_unit:b2v_load_store_unit_0.StoreType
+StoreType[1] << load_store_unit:b2v_load_store_unit_0.StoreType
+
+
+|controller|ALU_decoder:b2v_ALU_decoder_0
+opb5 => Mux3.IN32
+funct3[0] => Mux0.IN18
+funct3[0] => Mux1.IN18
+funct3[0] => Mux2.IN18
+funct3[0] => Mux3.IN35
+funct3[1] => Mux0.IN17
+funct3[1] => Mux1.IN17
+funct3[1] => Mux2.IN17
+funct3[1] => Mux3.IN34
+funct3[2] => Mux0.IN16
+funct3[2] => Mux1.IN16
+funct3[2] => Mux2.IN16
+funct3[2] => Mux3.IN33
+funct7b5 => Mux0.IN19
+funct7b5 => Mux1.IN19
+funct7b5 => Mux2.IN19
+funct7b5 => Mux3.IN36
+ALUOp[0] => Equal0.IN1
+ALUOp[0] => Equal1.IN0
+ALUOp[0] => Equal2.IN1
+ALUOp[1] => Equal0.IN0
+ALUOp[1] => Equal1.IN1
+ALUOp[1] => Equal2.IN0
+ALUControl[0] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[1] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[2] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+ALUControl[3] <= ALUControl.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|controller|branch_unit:b2v_branch_unit_0
+Branch => taken.IN1
+flags[0] => taken.IN1
+flags[0] => taken.IN1
+flags[1] => taken.IN0
+flags[1] => taken.IN0
+flags[2] => taken.IN1
+flags[2] => taken.IN1
+flags[3] => taken.IN1
+flags[3] => taken.IN1
+funct3[0] => Equal0.IN2
+funct3[0] => Equal1.IN0
+funct3[0] => Equal2.IN2
+funct3[0] => Equal3.IN1
+funct3[0] => Equal4.IN2
+funct3[0] => Equal5.IN2
+funct3[1] => Equal0.IN1
+funct3[1] => Equal1.IN2
+funct3[1] => Equal2.IN1
+funct3[1] => Equal3.IN2
+funct3[1] => Equal4.IN1
+funct3[1] => Equal5.IN1
+funct3[2] => Equal0.IN0
+funct3[2] => Equal1.IN1
+funct3[2] => Equal2.IN0
+funct3[2] => Equal3.IN0
+funct3[2] => Equal4.IN0
+funct3[2] => Equal5.IN0
+taken <= taken.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|controller|imm_src_decoder:b2v_imm_src_decoder_0
+op[0] => Decoder0.IN6
+op[1] => Decoder0.IN5
+op[2] => Decoder0.IN4
+op[3] => Decoder0.IN3
+op[4] => Decoder0.IN2
+op[5] => Decoder0.IN1
+op[6] => Decoder0.IN0
+ImmSrc[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ImmSrc[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ImmSrc[2] <= ImmSrc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|controller|load_store_unit:b2v_load_store_unit_0
+funct3[0] => Mux0.IN10
+funct3[0] => Decoder0.IN1
+funct3[0] => Mux1.IN5
+funct3[0] => LoadType[2].DATAIN
+funct3[0] => StoreType[1].DATAIN
+funct3[1] => Mux0.IN9
+funct3[1] => Mux1.IN4
+funct3[2] => Mux0.IN8
+funct3[2] => Decoder0.IN0
+LoadType[0] <= LoadType.DB_MAX_OUTPUT_PORT_TYPE
+LoadType[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+LoadType[2] <= funct3[0].DB_MAX_OUTPUT_PORT_TYPE
+StoreType[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+StoreType[1] <= funct3[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|controller|main_fsm:b2v_main_fsm_0
+reset => state~3.DATAIN
+clock => state~1.DATAIN
+op[0] => Decoder0.IN6
+op[1] => Decoder0.IN5
+op[2] => Decoder0.IN4
+op[3] => Decoder0.IN3
+op[4] => Decoder0.IN2
+op[5] => Decoder0.IN1
+op[5] => nextstate.MEMWRITE.DATAB
+op[5] => nextstate.MEMREAD.DATAB
+op[6] => Decoder0.IN0
+ALUSrcA[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrcA[1] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrcB[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrcB[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ResultSrc[0] <= ResultSrc[0].DB_MAX_OUTPUT_PORT_TYPE
+ResultSrc[1] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+AdrSrc <= AdrSrc.DB_MAX_OUTPUT_PORT_TYPE
+IRWrite <= IRWrite.DB_MAX_OUTPUT_PORT_TYPE
+PCUpdate <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+RegWrite <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+MemWrite <= MemWrite.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[0] <= Branch.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[1] <= ALUOp.DB_MAX_OUTPUT_PORT_TYPE
+Branch <= Branch.DB_MAX_OUTPUT_PORT_TYPE
+
+

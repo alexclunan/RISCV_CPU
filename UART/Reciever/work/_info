@@ -1,0 +1,154 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Alex/Desktop/CompArch_/UART/Transmitter
+vRcv_BaudCounterStartBitDetector
+Z0 !s110 1744566553
+!i10b 1
+!s100 5?g_LhLC^;Z;T21UnTnaI2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ifmj3C<YobRJ>R:<>U@^Xo1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Alex/Desktop/CompArch_/UART/Reciever
+w1744565998
+8C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_BaudCounterStartBitDetector.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_BaudCounterStartBitDetector.v
+!i122 53
+L0 1 83
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1744566553.000000
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_BaudCounterStartBitDetector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_BaudCounterStartBitDetector.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@rcv_@baud@counter@start@bit@detector
+vRcv_Controller
+R0
+!i10b 1
+!s100 Rki6IkfB7_]TYbG4iFAg00
+R1
+ISDjEGckJmTI?ZzW2NXVC60
+R2
+R3
+w1744565152
+8C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_Controller.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_Controller.v
+!i122 54
+L0 1 108
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_Controller.v|
+!i113 1
+R6
+R7
+n@rcv_@controller
+vRcv_ParityCheck
+R0
+!i10b 1
+!s100 i;UCJ5AXbOdW5U^Sz_ci>1
+R1
+IGdgggoH?U0]dKU_h959>60
+R2
+R3
+w1744565565
+8C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ParityCheck.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ParityCheck.v
+!i122 55
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ParityCheck.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ParityCheck.v|
+!i113 1
+R6
+R7
+n@rcv_@parity@check
+vRcv_ShiftRegister
+R0
+!i10b 1
+!s100 _MLD=4ShkiU]bih[3XEdz3
+R1
+IQVnaCgV<=8E>fUMDE3]`K3
+R2
+R3
+w1744566495
+8C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ShiftRegister.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ShiftRegister.v
+!i122 56
+L0 1 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ShiftRegister.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Reciever/Rcv_ShiftRegister.v|
+!i113 1
+R6
+R7
+n@rcv_@shift@register
+vtestbench
+R0
+!i10b 1
+!s100 D5faKb:;TE;kDhz?NoW361
+R1
+Ig]ecEi_h980W[h=nj=N1b3
+R2
+R3
+w1744564882
+8C:/Users/Alex/Desktop/CompArch_/UART/Reciever/testbench.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Reciever/testbench.v
+!i122 57
+L0 3 156
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Reciever/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Reciever/testbench.v|
+!i113 1
+R6
+R7
+vUART_Rcv
+!s110 1744566554
+!i10b 1
+!s100 O43UL]XK;<[8Hzb7QBah43
+R1
+I7GY`HD541X:UiZUfO?RGR3
+R2
+R3
+w1744257431
+8C:/Users/Alex/Desktop/CompArch_/UART/Reciever/UART_Rcv.v
+FC:/Users/Alex/Desktop/CompArch_/UART/Reciever/UART_Rcv.v
+!i122 58
+L0 1 60
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Alex/Desktop/CompArch_/UART/Reciever/UART_Rcv.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Alex/Desktop/CompArch_/UART/Reciever/UART_Rcv.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@rcv

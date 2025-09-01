@@ -1,0 +1,18 @@
+
+State Machine - |cpu|controller:b2v_controller_0|main_fsm:b2v_main_fsm_0|state
+Name state.AUIPC state.JALRWB state.JALR state.LUI state.BEQ state.JAL state.EXECUTEI state.ALUWB state.EXECUTER state.MEMWRITE state.MEMWB state.MEMREAD state.MEMADR state.DECODE state.FETCH 
+state.FETCH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.MEMADR 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.MEMREAD 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.MEMWB 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.MEMWRITE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.EXECUTER 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.ALUWB 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.EXECUTEI 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.JAL 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.BEQ 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.LUI 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.JALR 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.JALRWB 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.AUIPC 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at main_fsm.v(16): object "MemWrite" differs only in case from object "MEMWRITE" in the same scope File: C:/Users/Alex/Desktop/CompArch_/Computer System/main_fsm.v Line: 16

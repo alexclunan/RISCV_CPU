@@ -1,0 +1,85 @@
+# Compile of mux2.v was successful.
+# Compile of mux3.v was successful.
+# Compile of mux4.v was successful.
+# Compile of testbench_write.v was successful.
+# Compile of write_data.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 10:00:25 on Feb 10,2025
+# Loading work.testbench
+# Loading work.write_data
+# Loading work.mux4
+# Loading work.mux2
+add wave -position insertpoint  \
+sim:/testbench/Addr \
+sim:/testbench/rd2 \
+sim:/testbench/StoreType \
+sim:/testbench/ReadData \
+sim:/testbench/WriteData
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Alex  Hostname: DESKTOP-HSAA1HK  ProcessID: 20540
+#           Attempting to use alternate WLF file "./wlftqw2t73".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqw2t73
+run all
+# Invalid time value: all
+run -all
+# 
+# PASSED
+# ACTUAL ffffffff
+# EXPECTED ffffffff
+# TESTED SIGNAL NAME WriteData
+# INPUTS rd2 = 32'hffffffff
+# DESCRIPTION Write 32-bit word in rd2
+# TIME 20
+# 
+# PASSED
+# ACTUAL a5b4c3ff
+# EXPECTED a5b4c3ff
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 0 of rd2
+# TIME 30
+# 
+# PASSED
+# ACTUAL a5b4ffd2
+# EXPECTED a5b4ffd2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 1 of rd2
+# TIME 40
+# 
+# PASSED
+# ACTUAL a5ffc3d2
+# EXPECTED a5ffc3d2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 2 of rd2
+# TIME 50
+# 
+# PASSED
+# ACTUAL ffb4c3d2
+# EXPECTED ffb4c3d2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write byte 3 of rd2
+# TIME 60
+# 
+# PASSED
+# ACTUAL a5b4ffff
+# EXPECTED a5b4ffff
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write half word 0 of rd2
+# TIME 70
+# 
+# PASSED
+# ACTUAL ffffc3d2
+# EXPECTED ffffc3d2
+# TESTED SIGNAL NAME WriteData
+# INPUTS ReadData = 32'ha5b4c3d2, rd2 = 32'hffffffff
+# DESCRIPTION Write half word 1 of rd2
+# TIME 80
+# End time: 10:03:19 on Feb 10,2025, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 4
